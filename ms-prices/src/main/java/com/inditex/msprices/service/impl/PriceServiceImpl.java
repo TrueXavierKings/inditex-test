@@ -1,6 +1,6 @@
 package com.inditex.msprices.service.impl;
 
-import com.inditex.msprices.PriceUtils;
+import com.inditex.msprices.utils.PriceUtils;
 import com.inditex.msprices.dto.PriceRequest;
 import com.inditex.msprices.dto.PriceResponseItem;
 import com.inditex.msprices.entity.Price;

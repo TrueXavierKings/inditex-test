@@ -1,4 +1,4 @@
-package com.inditex.msprices;
+package com.inditex.msprices.utils;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
