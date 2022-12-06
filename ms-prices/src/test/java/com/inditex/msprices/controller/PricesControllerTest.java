@@ -42,7 +42,7 @@ public class PricesControllerTest {
 
 
         assertThat(pricesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(pricesResponse.getBody().getItems().size() == 6);
+        assertThat(pricesResponse.getBody().getItems().size()).isEqualTo(6);
     }
 
     @Test
