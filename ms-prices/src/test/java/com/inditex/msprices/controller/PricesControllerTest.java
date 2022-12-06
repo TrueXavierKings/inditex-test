@@ -14,6 +14,7 @@ import org.springframework.http.*;
 import java.util.Objects;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class PricesControllerTest {
@@ -53,7 +54,7 @@ public class PricesControllerTest {
                 request, PriceResponse.class);
 
         assertThat(pricesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(Objects.requireNonNull(pricesResponse.getBody()).getItems().get(0).getPriceList() == 1L);
+        assertEquals(Objects.requireNonNull(pricesResponse.getBody()).getItems().get(0).getPriceList(), 1L);
     }
 
     @Test
@@ -65,7 +66,7 @@ public class PricesControllerTest {
                 request, PriceResponse.class);
 
         assertThat(pricesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(pricesResponse.getBody().getItems().get(0).getPriceList() == 2L);
+        assertEquals(pricesResponse.getBody().getItems().get(0).getPriceList(), 2L);
     }
 
     @Test
@@ -77,7 +78,7 @@ public class PricesControllerTest {
                 request, PriceResponse.class);
 
         assertThat(pricesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(pricesResponse.getBody().getItems().get(0).getPriceList() == 1L);
+        assertEquals(pricesResponse.getBody().getItems().get(0).getPriceList(), 1L);
     }
 
     @Test
@@ -89,7 +90,7 @@ public class PricesControllerTest {
                 request, PriceResponse.class);
 
         assertThat(pricesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(pricesResponse.getBody().getItems().get(0).getPriceList() == 3L);
+        assertEquals(pricesResponse.getBody().getItems().get(0).getPriceList(), 3L);
     }
 
     @Test
@@ -101,7 +102,7 @@ public class PricesControllerTest {
                 request, PriceResponse.class);
 
         assertThat(pricesResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
-        assertThat(pricesResponse.getBody().getItems().get(0).getPriceList() == 4L);
+        assertEquals(pricesResponse.getBody().getItems().get(0).getPriceList(), 4L);
     }
 
 }
