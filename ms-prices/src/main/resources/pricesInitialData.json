@@ -1,0 +1,78 @@
+[
+  {
+    "priceId": 1,
+    "brand": {
+      "id": "1",
+      "name": "ZARA"
+    },
+    "startDate": "2020-06-14-00.00.00",
+    "endDate": "2020-12-31-23.59.59",
+    "productId": 35455,
+    "priority": 0,
+    "price": 35.50,
+    "currency": "EUR"
+  },
+  {
+    "priceId": 2,
+    "brand": {
+      "id": "1",
+      "name": "ZARA"
+    },
+    "startDate": "2020-06-14-15.00.00",
+    "endDate": "2020-06-14-18.30.00",
+    "productId": 35455,
+    "priority": 1,
+    "price": 25.45,
+    "currency": "EUR"
+  },
+  {
+    "priceId": 3,
+    "brand": {
+      "id": "1",
+      "name": "ZARA"
+    },
+    "startDate": "2020-06-15-00.00.00",
+    "endDate": "2020-06-15-11.00.00",
+    "productId": 35455,
+    "priority": 1,
+    "price": 30.50,
+    "currency": "EUR"
+  },
+  {
+    "priceId": 4,
+    "brand": {
+      "id": "1",
+      "name": "ZARA"
+    },
+    "startDate": "2020-06-15-16.00.00",
+    "endDate": "2020-12-31-23.59.59",
+    "productId": 35455,
+    "priority": 1,
+    "price": 38.95,
+    "currency": "EUR"
+  },
+  {
+    "priceId": 5,
+    "brand": {
+      "id": "2"
+    },
+    "startDate": "2020-06-15-16.00.00",
+    "endDate": "2020-12-31-23.59.59",
+    "productId": 131313,
+    "priority": 1,
+    "price": 8.95,
+    "currency": "EUR"
+  },
+  {
+    "priceId": 6,
+    "brand": {
+      "id": "2"
+    },
+    "startDate": "2020-06-15-16.00.00",
+    "endDate": "2020-12-31-23.59.59",
+    "productId": 131312,
+    "priority": 1,
+    "price": 7.95,
+    "currency": "EUR"
+  }
+]
