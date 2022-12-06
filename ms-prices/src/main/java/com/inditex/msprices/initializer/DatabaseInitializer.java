@@ -1,4 +1,4 @@
-package com.inditex.msprices.initalizer;
+package com.inditex.msprices.initializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.CollectionType;
@@ -6,7 +6,6 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.inditex.msprices.entity.Brand;
 import com.inditex.msprices.entity.Price;
 import com.inditex.msprices.exception.ErrorCatalog;
-import com.inditex.msprices.exception.ErrorMessage;
 import com.inditex.msprices.exception.PriceException;
 import com.inditex.msprices.repository.BrandRepository;
 import com.inditex.msprices.repository.PriceRepository;
